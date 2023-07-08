@@ -70,3 +70,19 @@
     background-color: lightslategray;
     color: black;
 }
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+    
+}
+.about-photo{
+    width: 250px;
+}
+.abt-us{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+}
