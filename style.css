@@ -86,3 +86,86 @@
     font-size: 50px;
     font-weight: bold;
 }
+.box{
+    width: 230px;
+    height: 280px;
+    box-shadow: 10px 10px 25px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+.icon{
+    width: 70px;
+}
+.box-btn{
+    background-color: gray;
+    margin-top: 10px;
+}
+.box-title{
+    padding: 10px;
+    
+}
+.box-description{
+    padding: 5px;
+}
+.service-container{
+    /*
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+
+    background-image: url("./images/background.png"),linear-gradient(45deg, rgb(8, 8, 8) ,rgb(53, 53, 53) );
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+    background-image: url("./images/background.png"),linear-gradient(45deg, rgb(8, 8, 8) ,rgb(53, 53, 53) );
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    
+}
+.service-title{
+    margin-bottom: -100px;
+    color: white;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+    
+    color: white;
+}
+.footer-logo{
+    width: 140px;
+}
+li{
+    list-style: none;
+}
+.mid1-footer-section{
+    
+}
+hr{
+    margin-bottom: 30px;     
+    margin-left: 60px;
+    margin-right: 60px;
+}
+footer{
+    background-color: black;
+}
+.footer-end{
+    
+    text-align: center;
+    color: white;
+    
+}
+.ft{
+    padding: 5px;
+}
